@@ -35,6 +35,7 @@ It helps render values dynamically, making your UI reflect the current state of 
 <p>{{ user.firstName + ' ' + user.lastName }}</p>
 <p>{{ getGreetingMessage() }}</p>
 <p>{{ price * quantity }}</p>
+```
 
 
 
@@ -48,3 +49,4 @@ Interpolation uses the **“mustache” syntax**, where expressions are enclosed
 
 ```html
 <p>{{ expression }}</p>
+```
